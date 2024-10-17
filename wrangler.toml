@@ -7,7 +7,8 @@ pages_build_output_dir = "./build/client"
 
 # 添加 build 配置
 [build]
-command = "pnpm install && pnpm run build"
+command = "npm install -g pnpm && pnpm install && pnpm run build"
+
 
 # 确保添加项目的环境变量（如果有需要的话）
 [env]
